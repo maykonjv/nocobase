@@ -86,6 +86,7 @@ const schema: ISchema = {
           'x-decorator': 'FormItem',
           enum: [
             { label: 'English', value: 'en-US' },
+            { label: 'Portugues', value: 'pt-BR' },
             { label: '简体中文', value: 'zh-CN' },
           ],
         },

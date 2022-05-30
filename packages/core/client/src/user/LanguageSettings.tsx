@@ -26,6 +26,7 @@ export const LanguageSettings = () => {
         options={[
           { label: '简体中文', value: 'zh-CN' },
           { label: 'English', value: 'en-US' },
+          { label: 'Portugues', value: 'pt-BR' },
         ]}
         value={i18n.language}
         onChange={async (lang) => {

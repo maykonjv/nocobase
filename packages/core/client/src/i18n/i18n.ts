@@ -21,6 +21,7 @@ i18n.use(initReactI18next).init({
 const momentLngs = {
   'en-US': 'en',
   'zh-CN': 'zh-cn',
+  'pt-BR': 'pt-br',
 };
 
 function setMomentLng(language) {
